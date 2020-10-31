@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 60vh;
+    z-index: 10;
+    font-family: 'Playfair Display', serif;
+    background-color: #1d181e;
+    position: relative;
+}
+.banner .center{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 44%;
+    color: white;
+}
+.banner .navbar.navbar-expand-lg {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    padding: 1.4rem 4.26rem;
+    z-index: 20;
+}
+.banner .navbar-brand .logo{
+    height: 100%;
+    width: 3.7rem;
+    margin-right: .6rem;
+}
+.banner .navbar .navbar-nav .nav-item{
+    margin: 0 2.885rem 0 0;
+}
+.banner .navbar .navbar-collapse button{
+    width: 3rem;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.banner .navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.banner .navbar .navbar-nav .nav-item.active{
+    position: relative;
+}
+.banner .navbar .navbar-nav .nav-item.active:after{
+    position: absolute;
+    content: "";
+    height: .1rem;
+    background:white;
+    width: 2.9rem;
+    left: 12%;
+    bottom: 0;
+}
+.banner .navbar-collapse button{
+    border: none;
+    background: none;
+}
+.banner .navbar-collapse img{
+    /* margin-left: 1.8rem */
+}
+.banner .navbar-collapse .cart{
+    margin-right: 0.5rem;
+}
+.banner .badge {
+    padding: 0 9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+.banner .label-warning[href],
+.banner .badge-warning[href] {
+    background-color: #f96882;
+}
+.banner #lblCartCount {
+    font-size: 12px;
+    background: #f96882;
+    color: #fff;
+    padding: 3px 5px;
+    margin-left: -15px;
+    margin-top: -15px; 
+}
+
+
+/*footer*/
+.footer-top{
+    height: 35vh;
+    background-color: #241d26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top button{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 50%;
+}
+.footer-bottom{
+    height: 10vh;
+    background-color:#241d26;
+    border-top: 1px solid #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-top .fb{ background-color: #4a62a3}
+.footer-top .tw{ background-color: #0ca9e0}
+.footer-top .ig{ background-color: #ec2654}
+.footer-top h1{ 
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: bold;
+}
+.footer-top p,
+.footer-bottom p{
+    font-family: 'Poppins', sans-serif;
+    font-size: .8em
+}
+
+.services{
+    height: 59vw;
+    /* padding-top: 8%; */
+    padding: 5vw 5vw;
+    display: inline;
+}
+.services .col-md-6{
+    height: 14vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.services .col-md-6 h1{
+    position: relative;
+}
+        /*font playfair*/
+.services .col-md-6 h1,
+.services .col-md-4 h4,
+.description h1,
+.description a,
+.client h1,
+.client h3,
+.sale h1,
+.sale h3{
+    font-family: 'Playfair Display', serif;
+}
+.services .capture,
+.description .wrap-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: .9em;
+    color: 
+}
+.services .col-md-6 h1::after{
+    content: '';
+    height: 2px;
+    width: 15%;
+    position: absolute;
+    bottom: -40%;
+    left: 40%;
+    background-color:#f96882;
+    
+}
+.services .services-grid .col-md-4{
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.services .col-md-4 h4{
+    margin: 3vh 0
+}
+
+/*sale*/
+.container-fluid.sale{
+    height: 70vh;
+    background-image: url("../images/orderBackground.png");
+    background-repeat: no-repeat;
+    padding-top: 8vh;
+    position: relative;
+    object-fit: cover;
+    /* display: inline; */
+}
+.sale .col-md-5{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.sale .large-text{
+    text-align: center
+}
+.sale h5{
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+}
+.sale .large-text{
+    font-size: 4em;
+}
+.sale .margin-text{
+    margin: 1vh 0 5vh 0;
+}
+.sale h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: .1em;
+    color: white;
+    position: absolute;
+    right: -9%;
+    top: 50%;
+    transform: rotate(-90deg);
+}
+.sale .form-control{
+    font-family: 'Poppins', sans-serif;
+    height: 7vh;
+    border-radius: 0;
+    border: none;
+    font-size: .8rem;
+}
+.sale .form-group{
+    border-radius: 0;
+}
+.sale .btn{
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: #f96882;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*team*/
+.team{
+    height: 45rem;
+}
+.team .col-md-4{
+    height: 65vh;
+}
+.team .col-md-4.team1,
+.team .col-md-4.team2,
+.team .col-md-4.team3{
+    background-repeat: no-repeat;
+    padding-top: 32%;
+}
+.team .col-md-4.team1{
+    background-image: url('../images/ourTeam1.png');
+    background-size: cover;
+}
+.team .col-md-4.team2{
+    background-image: url('../images/ourTeam2.png');
+    background-size: cover;
+}
+.team .col-md-4.team3{
+    background-image: url('../images/ourTeam1.png');
+    background-size: cover;
+}
+.team .col-md-12{
+    padding: 0 10vw;
+}
+.team .col-md-12 h1{
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    margin-bottom: 2.5rem
+}
+.team .col-md-12 h1:after{
+    content: '';
+    width: 2.5rem;
+    height: .15rem;
+    background-color: #f96882;
+    position: absolute;
+    bottom: -40%;
+    left: 47%;
+}
+.team .col-md-4 h3{
+    font-family: 'Playfair Display', serif;
+    color: white
+}
+.team .col-md-4 p{
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+}
